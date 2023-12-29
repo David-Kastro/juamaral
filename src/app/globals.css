@@ -3,25 +3,88 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --bazier: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #fff;
+}
+
+input {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  padding: 0.8rem 1.3rem;
+}
+
+@media (min-width: 1024px) {
+  input {
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    padding: 1.1rem 1.7rem;
+  }
+}
+
+.shadowcard {
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.13);
+  border-radius: 16px;
+}
+
+.shadowcall {
+  box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.13);
+}
+
+.barload {
+  width: 22px;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: var(--bazier);
+  animation-fill-mode: forwards;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-delay: 1.9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: var(--bazier);
+}
+
+@keyframes load {
+  from {
+    width: 22px;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.bg-default {
+  background-image: url(../../public/images/texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-topo {
+  background-image: url(../../public/images/bg-topo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
