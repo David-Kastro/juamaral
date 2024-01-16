@@ -70,7 +70,7 @@ function PageCaptura() {
               />
               <p className="text-[1.125rem] lg:text-[1.75rem] font-medium leading-6 lg:leading-9">
                 Maneiras de superar aquele nervosismo chato ao falar em público
-                e diante das câmeras.
+                e diante das camêras.
               </p>
             </div>
 
@@ -81,7 +81,7 @@ function PageCaptura() {
                 alt="check icon"
               />
               <p className="text-[1.125rem] lg:text-[1.75rem] font-medium leading-6 lg:leading-9">
-                Como fortalecer laços e relacionamentos através de uma
+                Como fortalecer laços e relacionamentos por meio de uma
                 comunicação autêntica.
               </p>
             </div>
@@ -104,8 +104,8 @@ function PageCaptura() {
                 alt="check icon"
               />
               <p className="text-[1.125rem] lg:text-[1.75rem] font-medium leading-6 lg:leading-9">
-                Segredos para expressar suas ideias de forma que todos entendam
-                e melhorar sua comunicação.
+                Segredos para expressar suas ideias com clareza e melhorar a
+                comunicação.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ function PageCaptura() {
           <div className="rounded-[0.625rem] bg-[#EFEFEF] mt-10 lg:mt-20 flex flex-col p-6 gap-5 lg:gap-6">
             <p className="text-center text-[1.25rem] lg:text-[1.75rem] not-italic font-bold leading-7 lg:leading-9">
               Chegou a hora de liberar o comunicador excepcional que existe
-              dentro de você. Vamos nessa juntos! 🚀
+              dentro de você! Vamos nessa juntos? 🚀
             </p>
             <a href="">
               <button className="w-full bg-[#BD4A65] rounded-lg text-[1rem] lg:text-[1.5rem] font-bold gap-3 text-white py-4 px-6 flex justify-center items-center">

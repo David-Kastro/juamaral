@@ -28,7 +28,7 @@ function PageConfirmado() {
               <Image className="hidden lg:block" src={Check} alt="check" />
               <Image className="lg:hidden" src={CheckSmall} alt="check small" />
               <h1 className="font-bold lg:text-[1.5rem] lg:leading-[1.75rem] text-[1rem] leading-[1.25rem] text-[#635B4B]">
-                Parabéns, o seu e-book
+                Parabéns! O seu e-book
                 <br />
                 <span className="text-[#BD4A65]">
                   COMUNICAÇÃO NA PRÁTICA

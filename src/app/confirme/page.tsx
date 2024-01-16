@@ -17,8 +17,8 @@ const steps: StepType[] = [
     text: (
       <>
         Pronto! Em instantes você vai receber o e-book{" "}
-        <span className="font-bold">COMUNICAÇÃO NA PRÁTICA</span>. Peço para que
-        verifique em sua caixa ou no spam, para que não fique sem o conteúdo.
+        <span className="font-bold">COMUNICAÇÃO NA PRÁTICA</span>. Verifique em
+        sua caixa ou no spam, para que não fique sem o conteúdo.
       </>
     ),
   },
@@ -29,7 +29,7 @@ const steps: StepType[] = [
     type: "whatsapp",
     highlight: "extra",
     title: "Por que entrar nesse grupo é indispensável?",
-    text: "Por lá, eu vou compartilhar materiais exclusivos, links das lives, conteúdos e dicas. Dessa forma você não irá perder nada",
+    text: "Por lá, eu vou compartilhar materiais exclusivos, links das lives, conteúdos e dicas. Dessa forma, você não irá perder nada",
     hideStep: true,
   },
 ];
