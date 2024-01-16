@@ -35,7 +35,7 @@ export default function Tagmanager() {
     }
 
     if (!getCrawlerInterno()) {
-      TagManager.initialize({ gtmId: "GTM-N73KWRD" });
+      TagManager.initialize({ gtmId: "GTM-XXX" });
     }
   }, []);
 
