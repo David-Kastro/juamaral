@@ -9,6 +9,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      width: {
+        container: "1197px",
+      },
     },
     screens: {
       sm: "640px",
