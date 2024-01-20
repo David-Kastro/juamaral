@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Oferta from "../Oferta";
 import CTA from "../CTA";
 
 function SectionVideo() {

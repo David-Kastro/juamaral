@@ -8,7 +8,6 @@ import Depoimento4 from "@images/depoimento4.jpg";
 import Depoimento5 from "@images/depoimento5.jpg";
 import Depoimento6 from "@images/depoimento6.jpg";
 import Depoimento7 from "@images/depoimento7.jpg";
-import Depoimento8 from "@images/depoimento8.jpg";
 import Depoimento9 from "@images/depoimento9.jpg";
 import Depoimento10 from "@images/depoimento10.jpg";
 import CTA from "../CTA";
