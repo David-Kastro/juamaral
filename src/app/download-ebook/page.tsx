@@ -39,7 +39,11 @@ function PageConfirmado() {
 
             <ProgressBar progress={100} />
 
-            <a href="">
+            <a
+              href="https://juamaral.com.br/ebook-comunicacao-na-pratica.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="bg-[#03CBD1] rounded-lg text-base font-bold gap-3 text-white py-4 px-6 flex justify-center items-center">
                 <Image src={DownloadIcon} alt="Download Icon" />
                 Baixar e-book
@@ -49,7 +53,7 @@ function PageConfirmado() {
 
           <div>
             <WhatsAppCTA
-              link="https://wpp.vtsd.com.br/l1-lightcopy"
+              link="#"
               text={
                 <>
                   Entre no grupo de WhatsApp para receber{" "}

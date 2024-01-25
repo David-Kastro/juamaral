@@ -4,16 +4,16 @@ import JuAmaral from "@images/ju-bio.jpg";
 
 function SectionBio() {
   return (
-    <div className="xl:w-container mx-auto mb-20">
-      <div className="flex justify-center gap-[2.19rem]">
-        <div className="w-7/12">
+    <div className="xl:w-container lg:w-[950px] w-[342px] mx-auto mb-20">
+      <div className="flex flex-col lg:flex-row justify-center gap-[2.19rem]">
+        <div className="lg:w-7/12 w-full">
           <Image src={JuAmaral} alt={"Ju Amaral"} />
         </div>
-        <div className="w-5/12">
+        <div className="lg:w-5/12 w-full">
           <p className="text-[#232323] text-xl not-italic font-medium leading-7 opacity-80">
             Quem é
           </p>
-          <h2 className="text-[#BD4A65] text-5xl not-italic font-bold leading-[4rem]">
+          <h2 className="text-[#BD4A65] text-3xl lg:text-5xl not-italic font-bold lg:leading-[4rem]">
             JULIANA AMARAL
           </h2>
           <p className="text-[#232323] text-base not-italic font-semibold leading-6">

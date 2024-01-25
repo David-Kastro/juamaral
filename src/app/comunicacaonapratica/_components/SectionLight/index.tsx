@@ -15,7 +15,7 @@ function SectionLight() {
     <div className="xl:w-container lg:w-[950px] w-[342px] mx-auto">
       <div className="flex flex-col justify-center mt-16">
         <div className=" flex flex-col justify-center gap-2">
-          <h2 className="text-center text-[2rem] font-semibold leading-[normal]">
+          <h2 className="text-center text-[1.5rem] lg:text-[2rem] font-semibold leading-[normal]">
             Como o curso{" "}
             <span className="text-[#BD4A65] font-bold">
               COMUNICAÇÃO NA PRÁTICA
@@ -39,8 +39,8 @@ function SectionLight() {
           <br />
           Por meio de exemplos reais e ações usadas por comunicadores
           experientes, você vai aprender conteúdos sobre produção e preparação
-          técnica; a melhorar a performance em frente às câmeras; vencer o medo
-          da desaprovação; pós-gravação e autoavaliação.
+          técnica; a melhorar a performance em frente às câmeras; a vencer o
+          medo da desaprovação; pós-gravação e autoavaliação.
         </p>
 
         <div className="lg:w-[838px] mx-auto flex flex-col gap-[0.31rem] mt-[2.25rem]">
@@ -56,8 +56,8 @@ function SectionLight() {
 function Modulo({ index, title }: { index: number; title: string }) {
   return (
     <div className="px-8 py-4 bg-[#BD4A65]">
-      <p className="text-[#E2E2E2] text-base leading-6">
-        <span className="font-extrabold">Módulo {index + 1} -</span> {title}
+      <p className="text-[#E2E2E2] text-base leading-6 font-bold">
+        <span className=" font-normal">Módulo {index + 1} -</span> {title}
       </p>
     </div>
   );

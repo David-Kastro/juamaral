@@ -23,7 +23,6 @@ function SectionVideo() {
           label={
             "Sim. Quero elevar o nível da oratória e dominar a arte de gravar vídeos"
           }
-          link={"#"}
           oferta={true}
         />
       </div>

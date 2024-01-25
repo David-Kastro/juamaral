@@ -10,11 +10,7 @@ function SectionTopo() {
       <div className="bg-[url('/images/bg-topo-sales.jpg')] bg-cover bg-bottom lg:pt-[40px] pt-[59px] text-white">
         <div className="xl:w-container lg:w-[950px] w-[342px] mx-auto pb-[280px]">
           <div className="flex lg:justify-between justify-center">
-            <Image
-              src={Logo}
-              className="lg:w-[257px] lg:h-[40px] w-[126px] h-[20px]"
-              alt="Logo"
-            />
+            <Image src={Logo} className="w-[257px] h-[40px]" alt="Logo" />
             <button
               onClick={() => {}}
               className="gap-[16px] items-center w-[182px] h-[48px] border border-[#EAEAEA] justify-center rounded-lg lg:flex hidden"
@@ -31,8 +27,8 @@ function SectionTopo() {
             </div>
             <div>
               <p className="text-[#EDEDED] lg:text-center text-[1rem] lg:text-[1.625rem] font-semibold leading-6 lg:leading-8">
-                Qualquer pessoa pode gravar um vídeo para a internet.
-                <br />
+                Qualquer pessoa pode gravar um vídeo para a internet.{" "}
+                <br className="hidden lg:block" />
                 <span className="text-[#03CBD1] font-bold">VOCÊ TAMBÉM.</span>
               </p>
             </div>

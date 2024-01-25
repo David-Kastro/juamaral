@@ -6,11 +6,12 @@ function SectionForWho() {
     <div className="xl:w-container lg:w-[950px] w-[342px] mx-auto">
       <div className="flex flex-col justify-center mt-16">
         <div className=" flex flex-col justify-center gap-2">
-          <h2 className="text-center text-[3rem] font-semibold leading-[normal]">
+          <h2 className="text-center text-[2rem] lg:text-[3rem] font-semibold leading-[normal]">
             Quem deve fazer esse curso
           </h2>
           <p className="text-[#232323] text-center text-base not-italic font-medium leading-7 opacity-80">
-            Essas são as principais profissões que mais <br />
+            Essas são as principais profissões que mais{" "}
+            <br className="hidden lg:block" />
             se beneficiam com o curso
           </p>
         </div>
@@ -62,7 +63,7 @@ function SectionForWho() {
           <span className="text-[#BD4A65] font-bold">
             - Artistas e Criadores de Conteúdo:
           </span>{" "}
-          ganhe visibilidade e fãs, transmitindo autenticidade e paixão através
+          ganhe visibilidade e fãs, transmitindo autenticidade e paixão por meio
           das câmeras.
           <br />
           <br />
@@ -74,10 +75,7 @@ function SectionForWho() {
         </p>
       </div>
       <div className=" my-20">
-        <CTA
-          label="Sim. Quero ter confiança para gravar videoaulas, entrevista, lives e podcast"
-          link="#"
-        />
+        <CTA label="Sim. Quero ter confiança para gravar videoaulas, entrevista, lives e podcast" />
       </div>
     </div>
   );

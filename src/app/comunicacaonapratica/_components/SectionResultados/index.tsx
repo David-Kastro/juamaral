@@ -46,7 +46,7 @@ function SectionResultados() {
           </div>
         </div>
         <div className=" flex flex-col justify-center gap-2">
-          <h2 className="text-center text-[2rem] font-semibold leading-[normal]">
+          <h2 className="text-center text-[1.5rem] lg:text-[2rem] font-semibold leading-[normal]">
             Depoimentos de alunos da{" "}
             <span className="text-[#BD4A65] font-bold">Juliana Amaral</span>,
             criadora do curso{" "}
@@ -70,10 +70,7 @@ function SectionResultados() {
           ))}
         </div>
         <div className=" my-20">
-          <CTA
-            label="Sim. Quero ter confiança para gravar videoaulas, entrevista, lives e podcast"
-            link="#"
-          />
+          <CTA label="Sim. Quero ter confiança para gravar videoaulas, entrevista, lives e podcast" />
         </div>
         <div className="mt-[92px] h-[1px] bg-[#565656]"></div>
       </div>

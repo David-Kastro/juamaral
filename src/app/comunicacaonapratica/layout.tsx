@@ -4,9 +4,8 @@ import { Montserrat } from "next/font/google";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Light Copy | Vendas",
   description:
-    "Entenda tudo sobre essa nova abordagem de comunicação “inofensiva”, que justamente por não mostrar as garras do marketing digital, vende muito",
+    "Entenda porque muitas pessoas sentem vergonha e timidez ao gravar vídeos. chegou a sua hora de brilhar! Prepare-se para aparecer no vídeo!",
 };
 
 export default function Layout({ children }: any) {

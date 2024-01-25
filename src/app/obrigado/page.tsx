@@ -5,6 +5,8 @@ import Image from "next/image";
 import ProgressBar from "@/_components/ProgressBar";
 import Steps, { StepType } from "@/_components/Steps";
 
+const WHATS_LINK = "#";
+
 export const metadata = {
   title: "Inscrição quase confirmada!",
   description: "Falta só você entrar no grupo para garantir seu e-book",
@@ -29,7 +31,7 @@ const steps: StepType[] = [
     type: "whatsapp",
     highlight: "extra",
     title: "Por que entrar nesse grupo é indispensável?",
-    text: "Por lá, eu vou compartilhar materiais exclusivos, links das lives, conteúdos e dicas. Dessa forma, você não irá perder nada",
+    text: "Por lá, eu vou compartilhar materiais exclusivos, links das lives, conteúdos e dicas. Dessa forma, você não irá perder nada.",
     hideStep: true,
   },
 ];
@@ -37,7 +39,7 @@ const steps: StepType[] = [
 function PageConfirme() {
   // useEffect(() => {
   //   setTimeout(() => {
-  //     window.location.href = "https://wpp.vtsd.com.br/l1-lightcopy";
+  //     window.location.href = WHATS_LINK;
   //   }, 10000);
   // }, []);
 
@@ -61,7 +63,7 @@ function PageConfirme() {
           </div>
 
           <div>
-            <Steps steps={steps} link="https://wpp.vtsd.com.br/l1-lightcopy" />
+            <Steps steps={steps} link={WHATS_LINK} />
           </div>
         </div>
       </div>

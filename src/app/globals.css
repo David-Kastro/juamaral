@@ -6,6 +6,10 @@
   --bazier: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
 }

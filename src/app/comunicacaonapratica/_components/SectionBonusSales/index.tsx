@@ -23,7 +23,7 @@ function SectionBonus() {
                 com duração de 40 minutos, presencial ou online.
               </>
             }
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
+            description="Se você for de Brasília, terá este privilégio do encontro presencial. Se você for de fora, faremos online. É uma oportunidade única, é uma consultoria particular exclusiva para você."
           />
 
           <CardBonus
@@ -43,7 +43,7 @@ function SectionBonus() {
                 Dia e hora a serem marcados.
               </>
             }
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
+            description="Aula ao vivo no Zoom com um seleto grupo de 10 alunos(as) e comigo, para poder tirar todas as dúvidas e aumentar seu conhecimento."
           />
 
           <CardBonus
@@ -54,7 +54,7 @@ function SectionBonus() {
                 Juliana Amaral - Comunicação na Prática
               </>
             }
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
+            description="Este sairá gratuito para você. É um material que vai potencializar o curso e te ajudar ainda mais."
           />
 
           <CardBonus
@@ -67,14 +67,9 @@ function SectionBonus() {
                 das gravações de estúdio e lives Juliana Amaral
               </>
             }
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
           />
 
-          <CardBonus
-            index={3}
-            title="Exercícios de trava-língua"
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
-          />
+          <CardBonus index={3} title="Exercícios de trava-língua" />
 
           <CardBonus
             index={4}
@@ -86,7 +81,7 @@ function SectionBonus() {
                 </span>
               </>
             }
-            description="Lorem ipsum dolor sit amet. Et voluptatem molestias vel perspiciatis molestiae ab consequatur neque vel omnis asperiores. Ea incidunt natus non soluta voluptatem qui enim consequuntur qui dolorem recusandae id facilis praesentium est voluptatem illum rem distinctio internos!"
+            description="Conteúdo exclusivo e fechado com 03 aulas extras."
           />
         </div>
       </div>

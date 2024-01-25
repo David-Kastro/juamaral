@@ -7,7 +7,7 @@ import CheckIcon from "@images/check-icon.svg";
 export const metadata = {
   title: "Garanta seu E-book",
   description:
-    "Tenha acesso a segredos e dicas para desbloquear sua confiança ao falar diante da câmera, construir conexões mais profundas e fazer suas ideias brilharem.",
+    "Tenha acesso a segredos e dicas para desbloquear sua confiança ao falar diante das câmeras, construir conexões mais profundas e fazer suas ideias brilharem.",
 };
 
 function PageCaptura() {
@@ -18,7 +18,10 @@ function PageCaptura() {
           <div className="flex max-w-[1200px] mx-auto px-6 py-10">
             <div className="w-full lg:w-[60%] flex flex-col gap-5">
               <Image src={Logo} alt="Logo" />
-              <h1 className="text-[1rem] lg:text-[1.375rem] font-semibold">
+              <h1
+                id="form"
+                className="text-[1rem] lg:text-[1.375rem] font-semibold"
+              >
                 Você já sentiu aquele{" "}
                 <span className="text-[#03CBD1]">
                   frio na barriga na hora de se expressar?{" "}
@@ -70,7 +73,7 @@ function PageCaptura() {
               />
               <p className="text-[1.125rem] lg:text-[1.75rem] font-medium leading-6 lg:leading-9">
                 Maneiras de superar aquele nervosismo chato ao falar em público
-                e diante das camêras.
+                e diante das câmeras.
               </p>
             </div>
 
@@ -115,7 +118,7 @@ function PageCaptura() {
               Chegou a hora de liberar o comunicador excepcional que existe
               dentro de você! Vamos nessa juntos? 🚀
             </p>
-            <a href="">
+            <a href="#form">
               <button className="w-full bg-[#BD4A65] rounded-lg text-[1rem] lg:text-[1.5rem] font-bold gap-3 text-white py-4 px-6 flex justify-center items-center">
                 Quero fazer parte agora!
               </button>
