@@ -57,7 +57,7 @@ function PageCaptura() {
           <p className="text-[1.125rem] lg:text-[1.375rem] font-medium">
             você terá acesso a segredos e dicas que vão além do comum. É como
             descobrir um mapa do tesouro para desbloquear sua confiança ao falar
-            diante da câmera, construir conexões mais profundas e fazer suas
+            diante das câmeras, construir conexões mais profundas e fazer suas
             ideias brilharem.
             <br />
             <br />

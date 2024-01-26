@@ -23,7 +23,7 @@ function SectionBonus() {
                 com duração de 40 minutos, presencial ou online.
               </>
             }
-            description="Se você for de Brasília, terá este privilégio do encontro presencial. Se você for de fora, faremos online. É uma oportunidade única, é uma consultoria particular exclusiva para você."
+            description="Se você for de Brasília, terá este privilégio do encontro presencial. Se você for de fora, faremos online. É uma oportunidade única, de uma consultoria particular exclusiva para você."
           />
 
           <CardBonus
