@@ -5,7 +5,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   description:
-    "Entenda porque muitas pessoas sentem vergonha e timidez ao gravar vídeos. chegou a sua hora de brilhar! Prepare-se para aparecer no vídeo!",
+    "Entenda porque muitas pessoas sentem vergonha e timidez ao gravar vídeos. Chegou a sua hora de brilhar! Prepare-se para aparecer no vídeo!",
 };
 
 export default function Layout({ children }: any) {

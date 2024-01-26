@@ -35,7 +35,7 @@ function SectionTopo() {
             <div className="max-w-[41.5rem] text-[#EDEDED] text-[0.875rem] lg:text-base not-italic font-medium leading-5 lg:leading-7">
               <p className="lg:text-center">
                 Entenda porque muitas pessoas sentem vergonha e timidez ao
-                gravar vídeos. chegou a sua hora de brilhar! Prepare-se para
+                gravar vídeos. Chegou a sua hora de brilhar! Prepare-se para
                 aparecer no vídeo!
               </p>
             </div>
