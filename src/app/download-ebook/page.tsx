@@ -53,7 +53,7 @@ function PageConfirmado() {
 
           <div>
             <WhatsAppCTA
-              link="#"
+              link="https://chat.whatsapp.com/B9NTTqEMjS4KtdLLeqAS2f"
               text={
                 <>
                   Entre no grupo de WhatsApp para receber{" "}

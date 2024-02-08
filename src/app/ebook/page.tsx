@@ -36,10 +36,22 @@ function PageCaptura() {
                   transformar sua comunicação de uma vez por todas.
                 </span>
               </h1>
-              <form className="flex flex-col gap-4 lg:gap-5 max-w-[32rem]">
-                <input type="text" name="nome" placeholder="Nome" />
-                <input type="email" name="email" placeholder="E-mail" />
-                <button className="bg-[#03CBD1] rounded-lg text-base font-bold gap-3 text-white py-4 px-6 flex justify-center items-center">
+              <form
+                action="/email"
+                method="POST"
+                className="flex flex-col gap-4 lg:gap-5 max-w-[32rem]"
+              >
+                <input type="text" name="name" placeholder="Nome" required />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="bg-[#03CBD1] rounded-lg text-base font-bold gap-3 text-white py-4 px-6 flex justify-center items-center"
+                >
                   Quero fazer parte agora!
                 </button>
               </form>

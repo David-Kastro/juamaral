@@ -5,7 +5,7 @@ import Image from "next/image";
 import ProgressBar from "@/_components/ProgressBar";
 import Steps, { StepType } from "@/_components/Steps";
 
-const WHATS_LINK = "#";
+const WHATS_LINK = "https://chat.whatsapp.com/B9NTTqEMjS4KtdLLeqAS2f";
 
 export const metadata = {
   title: "Inscrição quase confirmada!",

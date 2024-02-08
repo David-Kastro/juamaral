@@ -12,7 +12,7 @@ function SectionVideo() {
       <div id="video-section" className="w-full">
         <iframe
           className="w-full lg:h-[676px] h-[274px] rounded-2xl"
-          src="https://www.youtube.com/embed/6YFRb3yVwYQ"
+          src="https://www.youtube.com/embed/s5narwknQiE"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen

@@ -1,5 +1,8 @@
 import "react-modal-video/css/modal-video.css";
 import { Montserrat } from "next/font/google";
+import TagScripts, { NoScripts } from "@/_components/Tags";
+// import { Suspense } from "react";
+// import Tagmanager from "@/_components/Tagmanager";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -11,7 +14,15 @@ export const metadata = {
 export default function Layout({ children }: any) {
   return (
     <>
-      <main className={montserrat.className}>{children}</main>
+      <html lang="pt-br">
+        <head>
+          <TagScripts />
+        </head>
+        <body className={montserrat.className}>
+          <NoScripts />
+          {children}
+        </body>
+      </html>
     </>
   );
 }
