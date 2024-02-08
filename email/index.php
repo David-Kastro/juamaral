@@ -3,16 +3,16 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 if (empty($_POST['name']) || empty($_POST['email'])) {
-    header('Location: https://juamaral.com.br/obrigado/');
-    exit;
+  header('Location: https://juamaral.com.br/obrigado/');
+  exit;
 }
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    header('Location: https://juamaral.com.br/obrigado/');
-    exit;
+  header('Location: https://juamaral.com.br/obrigado/');
+  exit;
 }
 
 $to = $email;
@@ -32,7 +32,7 @@ $htmlContent = '
       }
       h1 {
         font-size: 24px;
-        margin: 16px 0 16px;
+        margin: 8px 0 16px;
       }
       h2 {
         font-size: 16px;
@@ -51,7 +51,7 @@ $htmlContent = '
     </style>
   </head>
   <body style="background-color: white">
-    <div style="width: 100%; max-width: 800px; margin: auto; padding: 22px">
+    <div style="width: 100%; max-width: 800px; margin: auto;">
       <h3>Parabéns ' . $name . '</h3>
       <h1>Seu e-book <span>COMUNICAÇÃO NA PRÁTICA</span> chegou!!</h1>
       <h2>Clique no botão abaixo para baixar o seu E-book</h2>
@@ -93,9 +93,9 @@ $headers .= 'From: ' . $fromName . '<' . $from . '>' . "\r\n";
 
 // Send email 
 if (mail($to, $subject, $htmlContent, $headers)) {
-    echo 'Email has sent successfully.';
+  echo 'Email has sent successfully.';
 } else {
-    echo 'Email sending failed.';
+  echo 'Email sending failed.';
 }
 
 header('Location: https://juamaral.com.br/obrigado/');

@@ -37,7 +37,7 @@ function PageCaptura() {
                 </span>
               </h1>
               <form
-                action="/email"
+                action="/email/index.php"
                 method="POST"
                 className="flex flex-col gap-4 lg:gap-5 max-w-[32rem]"
               >
