@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Footer from "@/_components/Footer";
 import Logo from "@images/logo-white.png";
+import Ju from "@images/ju-amaral.jpeg";
 import CheckIcon from "@images/check-icon.svg";
 
 export const metadata = {
@@ -16,8 +17,11 @@ function PageCaptura() {
       <div className="min-h-screen w-full flex flex-col pb-20">
         <div className="w-full bg-topo min-h-[45rem] text-white">
           <div className="flex max-w-[1200px] mx-auto px-6 py-10">
-            <div className="w-full lg:w-[60%] flex flex-col gap-5">
+            <div className="w-full lg:w-[60%] flex flex-col gap-5 lg:mb-0 mb-24">
               <Image src={Logo} alt="Logo" />
+              <div className="lg:hidden">
+                <Image src={Ju} alt="Logo" />
+              </div>
               <h1
                 id="form"
                 className="text-[1rem] lg:text-[1.375rem] font-semibold"
