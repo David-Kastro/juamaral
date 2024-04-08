@@ -24,11 +24,11 @@ function Oferta() {
             <p className="text-[#818181] font-bold text-[1rem]">Total</p>
             <div className="bg-[#BD4A6533] rounded-[1.6875rem] lg:py-[1.5rem] py-[.6rem] px-[0.94rem]">
               <p className="font-bold text-[#70C747] lg:text-[2.22688rem] text-[1.5rem] text-center">
-                R$ 997,00
+                R$ 497,00
               </p>
             </div>
             <p className="text-center text-[#7F9F6B] text-[1.14669rem]">
-              12x de <span className="font-bold">R$ 99,50 *</span>
+              12x de <span className="font-bold">R$ 49,60 *</span>
             </p>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import "react-modal-video/css/modal-video.css";
 import { Montserrat } from "next/font/google";
 import TagScripts, { NoScripts } from "@/_components/Tags";
+import { Suspense } from "react";
+import Tagmanager from "@/_components/Tagmanager";
 // import { Suspense } from "react";
 // import Tagmanager from "@/_components/Tagmanager";
 
@@ -15,11 +17,10 @@ export default function Layout({ children }: any) {
   return (
     <>
       <html lang="pt-br">
-        <head>
-          <TagScripts />
-        </head>
         <body className={montserrat.className}>
-          <NoScripts />
+          <Suspense>
+            <Tagmanager />
+          </Suspense>
           {children}
         </body>
       </html>
